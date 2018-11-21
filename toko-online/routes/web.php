@@ -21,4 +21,6 @@ Route::get('/helo', function () {
 
 Route::get('/hello', 'WelcomeController@beriSalam');
 
-Route::get('/producks','ProduckControler@index');
+Route::get('Produck/display','ProduckController@showAll');
+
+Route::post('Produck/save','ProduckController@saveNew');

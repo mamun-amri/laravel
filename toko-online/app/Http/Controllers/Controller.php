@@ -10,4 +10,10 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function showAll() {
+    $dataProductDariModel = Produck::all();
+    return view(‘Produck.display’, [“Produck” =>
+    $dataProductDariModel]);
+    }
 }
