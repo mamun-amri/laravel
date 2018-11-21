@@ -19,4 +19,6 @@ Route::get('/helo', function () {
     return 'hello world';
 });
 
-Route::get("/hello", "WelcomeController@beriSalam");
+Route::get('/hello', 'WelcomeController@beriSalam');
+
+Route::get('/producks','ProduckControler@index');
