@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/helo', function () {
     return 'hello world';
 });
+
+Route::get("/hello", "WelcomeController@beriSalam");
