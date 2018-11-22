@@ -11,6 +11,8 @@
 |
 */
 
+//url, controler@metode
+
 Route::get('/', function () {
     return view('welcome');
 });
