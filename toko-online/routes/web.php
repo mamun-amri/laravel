@@ -23,6 +23,6 @@ Route::get('/hello', 'WelcomeController@beriSalam');
 
 Route::get('/products', 'ProductController@index');
 
-Route::get('product/display','ProduckController@showAll');
+Route::get('Product/display','ProductController@showAll');
 
-Route::post('Produck/save','ProduckController@saveNew');
+Route::post('Product/save','ProductController@saveNew');

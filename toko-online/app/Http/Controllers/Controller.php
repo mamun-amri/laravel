@@ -13,7 +13,7 @@ class Controller extends BaseController
 
     public function showAll() {
     $dataProductDariModel = Product::all();
-    return view(‘Product.display’, [“Products” =>
+    return view(‘product.display’, [“products” =>
     $dataProductDariModel]);
     }
 }
