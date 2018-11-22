@@ -12,5 +12,6 @@
     </head>
     <body>
       <h1>view sudah bisa dimulai</h1>
+      <h3>hayo kita mulai</h3>
     </body>
 </html>
