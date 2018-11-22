@@ -12,8 +12,8 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function showAll() {
-    $dataProductDariModel = Produck::all();
-    return view(‘Produck.display’, [“Produck” =>
+    $dataProductDariModel = Product::all();
+    return view(‘Product.display’, [“Products” =>
     $dataProductDariModel]);
     }
 }
