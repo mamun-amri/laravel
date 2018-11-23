@@ -17,8 +17,8 @@ public function saveNew(Request $request){
   // kode logika untuk menyimpan product baru
 }
 
-//controler yang ada difolder product 
-public function index(){
+//controler yang ada difolder product
+public function show(){
 return view('product.display');
 }
 
