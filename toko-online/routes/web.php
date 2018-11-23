@@ -21,6 +21,9 @@ Route::get('/helo', function () {
     return 'hello world';
 });
 
+//jika ingin melewati controler
+Route::view('/coba','product.index');
+
 Route::get('/hello', 'WelcomeController@beriSalam');
 
 Route::get('/product/index', 'ProductController@indek');
