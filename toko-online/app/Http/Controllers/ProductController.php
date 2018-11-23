@@ -19,7 +19,7 @@ public function saveNew(Request $request){
 
 //controler yang ada difolder product
 public function show(){
-return view('product.display');
+return view('product.index');
 }
 
 }
