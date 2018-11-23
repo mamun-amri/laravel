@@ -18,8 +18,15 @@ public function saveNew(Request $request){
 }
 
 //controler yang ada difolder product
-public function show(){
+public function indek(){
 return view('product.index');
+}
+
+//ini menampilkan dengan ID
+public function show($id){
+  /** Nah sekarang kita bisa menggunakan $id
+* untuk misalnya query ke DB product where id == $id
+*/
 }
 
 }

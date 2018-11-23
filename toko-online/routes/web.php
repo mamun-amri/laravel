@@ -23,8 +23,12 @@ Route::get('/helo', function () {
 
 Route::get('/hello', 'WelcomeController@beriSalam');
 
-Route::get('/product/index', 'ProductController@show');
+Route::get('/product/index', 'ProductController@indek');
 
 Route::get('/product/display','ProductController@showAll');
 
 Route::post('/product/save','ProductController@saveNew');
+
+Route::get('/pintu-masuk',"TestController@pintuMasuk");
+
+Route::get('/product/{product_id}','ProductController@show');
